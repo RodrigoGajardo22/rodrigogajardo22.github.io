@@ -1,0 +1,11 @@
+.justify-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: rgb(105, 100, 100);
+}
+
+.card-size {
+  width: 20rem;
+}

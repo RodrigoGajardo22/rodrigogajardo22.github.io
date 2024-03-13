@@ -1,0 +1,99 @@
+h1,
+h2,
+h3,
+h4,
+hr {
+  color: #e2e2e2;
+  margin: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: aqua;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centrar verticalmente los elementos */
+  background-color: #000000;
+  color: white; /* Color de texto blanco */
+  padding: 10px; /* Espaciado interno */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+nav ul {
+  list-style-type: none; /* Quitar viñetas de la lista */
+  padding: 0; /* Quitar el padding predeterminado de la lista */
+  margin: 0; /* Quitar el margen predeterminado de la lista */
+}
+
+nav ul li {
+  display: inline-block; /* Mostrar los elementos de la lista en línea */
+  margin-right: 20px; /* Margen a la derecha para separar los elementos */
+}
+nav ul li a {
+  color: #ffffff; /* Cambia el color del texto a blanco */
+}
+
+nav ul li a:hover {
+  transition: color 0.3s;
+  color: #68c9ed; /* Cambiar color del texto al pasar el cursor */
+}
+
+main {
+  background-color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.tarjetas {
+  margin: 10px;
+  border: 5px solid rgb(114, 114, 114);
+  border-radius: 20px;
+  padding: 1em;
+  flex: 1 1 16em;
+  max-width: 20em;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgb(255, 255, 255);
+  transition: all 400ms ease;
+}
+
+.tarjetas :hover {
+  transition: 400ms;
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  transform: translateY(-3%);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}

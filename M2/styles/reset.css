@@ -1,0 +1,80 @@
+/* Box sizing border-box for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Reset font styles for most elements */
+body,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Reset font size to 1rem for body */
+html {
+  font-size: 16px;
+}
+
+/* Prevent vertical spacing between table cells */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default button styles */
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* Inherit line-height and vertical alignment to make sure that all text elements are vertically aligned */
+button,
+input,
+select,
+textarea {
+  line-height: inherit;
+}
+
+/* Reset button, input, select, and textarea focus styles */
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* Reset anchor text decoration */
+a {
+  text-decoration: none;
+}
